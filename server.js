@@ -8,7 +8,7 @@ const shortid = require("shortid");
 
 var router = express.Router();
 
-const MONGO_URI = process.env['MONGO_URI'];
+const MONGO_URI = "mongodb+srv://Kevin:ultraultra@cluster0.bx5tm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
 const url = mongoose.connect(MONGO_URI, {useNewUrlParser: true, useUnifiedTopology: true});
 
